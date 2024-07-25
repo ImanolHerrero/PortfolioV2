@@ -1,0 +1,21 @@
+{
+      "name": "Imanol Herrero",
+      "title": "FullStack Web Developer & IT Technician",
+      "location": "Buenos Aires, Argentina",
+      "about_me": "About me",
+      "about_me_description": "Proven experience as a Web Developer, currently seeking new opportunities to expand my knowledge and contribute my teamwork, proactivity, and commitment.",
+      "work_experience": "Work experience",
+      "frontend_dev": "Front End Developer",
+      "fullstack_dev": "FullStack Developer",
+      "duration_frontend": "May 2024 - Jul 2024",
+      "company_frontend": "Care4U LATAM. Full Time. Remote.",
+      "description_frontend": "I developed the entire Front End of the project following a design proposed in Figma, where I carried out tasks such as integrating various APIs from the Back End, 100% responsive design, persistence, conditional rendering, and dynamic routes.",
+      "duration_fullstack": "Jan 2024 - Feb 2024",
+      "company_fullstack": "FlexWork LATAM. Internship. Remote.",
+      "description_fullstack": "I was responsible for tasks both in the Front End following the design proposed in Figma and in the Back End developing a CRUD (create, read, update, delete).",
+      "proyect_title": "Proyects",
+      "project1_description": "English dictionary.",
+      "project2_description": "URL shortener using external API.",
+      "project3_description": "Event managment app.",
+      "cta_button": "Let's work together"
+}
