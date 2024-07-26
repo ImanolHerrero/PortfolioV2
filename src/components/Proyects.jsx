@@ -36,6 +36,7 @@ function Proyects() {
                                     <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>API</span>
                                     <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>HTML</span>
                                     <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>SCSS</span>
+                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>JavaScript</span>
                               </footer>
                         </div>
                         <div className='border rounded p-2'>
