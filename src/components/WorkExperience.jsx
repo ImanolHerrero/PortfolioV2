@@ -45,14 +45,23 @@ function WorkExperience() {
          company: t("company_3"),
          technologies: ["NodeJS", "Hono", "Cron", "NodeMailer", "Git", "SOAP", "Docker"],
          description: t("description_exp_3")
+      },
+      {
+         title: t("experience_4"),
+         duration: t("duration_exp_4"),
+         company: t("company_4"),
+         technologies: ["React Native", "Expo", "NativeWind"],
+         description: t("description_exp_4")
       }
    ];
 
    return (
       <section className="mb-12 animate-fade-left animate-duration-500 animate-delay-1000 animate-ease-linear">
          <h1 className="text-2xl font-bold mb-2 flex items-center gap-2">
-            <Briefcase /> {t("work_experience")}
+            <Briefcase />
+            <p>{t("work_experience")}</p>
          </h1>
+
 
          {experiences.map((experience, index) => (
             <WorkExperienceItem key={index} {...experience} />

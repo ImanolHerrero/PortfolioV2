@@ -11,9 +11,9 @@ function LanguageSwitch() {
       return (
             <div className="flex items-center gap-2">
                   <Translate />
-                  <button onClick={() => changeLanguage('en')}>EN</button>
+                  <button onClick={() => changeLanguage('en')}>ENG</button>
                   <span> / </span>
-                  <button onClick={() => changeLanguage('es')}>ES</button>
+                  <button onClick={() => changeLanguage('es')}>ESP</button>
             </div>
       );
 }
