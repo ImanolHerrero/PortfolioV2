@@ -19,9 +19,9 @@ function Proyects() {
                               </div>
                               <p>{t('project1_description')}</p>
                               <footer className='flex flex-wrap gap-2 mt-2'>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>API</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>NextJS</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>TailwindCSS</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>API</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>NextJS</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>TailwindCSS</span>
                               </footer>
                         </div>
                         <div className='border rounded p-2'>
@@ -33,10 +33,10 @@ function Proyects() {
                               </div>
                               <p>{t('project2_description')}</p>
                               <footer className='flex flex-wrap gap-2 mt-2'>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>API</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>HTML</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>SCSS</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>JavaScript</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>API</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>HTML</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>SCSS</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>JavaScript</span>
                               </footer>
                         </div>
                         <div className='border rounded p-2'>
@@ -48,13 +48,13 @@ function Proyects() {
                               </div>
                               <p>{t('project3_description')}</p>
                               <footer className='flex flex-wrap gap-2 mt-2'>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>CRUD</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>Admin Panel</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>Team Project</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>NextJS</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>CSS</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>Auth</span>
-                                    <span className='bg-gray-100 dark:bg-gray-900 rounded p-1'>Checkout</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>CRUD</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>Admin Panel</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>Team Project</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>NextJS</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>CSS</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>Auth</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>Checkout</span>
                               </footer>
                         </div>
 

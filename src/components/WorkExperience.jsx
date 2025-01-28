@@ -12,11 +12,11 @@ function WorkExperienceItem({ title, duration, company, technologies, descriptio
 
          <ul className="flex gap-2 flex-wrap">
             {technologies.map((tech, index) => (
-               <li key={index} className="bg-gray-100 dark:bg-gray-900 rounded p-1">{tech}</li>
+               <li key={index} className="bg-gray-100 dark:bg-zinc-800 rounded p-1">{tech}</li>
             ))}
          </ul>
 
-         <p className="mt-2 text-gray-700 dark:text-gray-400">{description}</p>
+         <p className="mt-2 text-gray-700 dark:text-gray-300">{description}</p>
       </section>
    );
 }

@@ -8,9 +8,10 @@ body {
   transition: background-color 0.5s;
   letter-spacing: -0.025rem;
   background-color: #fcfcfc;
+
 }
 
 body.dark {
-  background-color: #030712;
+  background-color: #18181b;
 
 }

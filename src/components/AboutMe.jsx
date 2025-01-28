@@ -9,7 +9,7 @@ function AboutMe() {
 
 
                   <h1 className="text-2xl font-bold mb-2 flex items-center gap-2 "><User /> {t('about_me')}</h1>
-                  <p className="text-gray-700 dark:text-gray-400">
+                  <p className="text-gray-700 dark:text-gray-300">
                         {t('about_me_description')}
                   </p>
 
