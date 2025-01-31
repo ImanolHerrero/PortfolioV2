@@ -57,6 +57,22 @@ function Proyects() {
                                     <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>Checkout</span>
                               </footer>
                         </div>
+                        <div className='border rounded p-2'>
+                              <div className='flex items-center gap-2 mb-2'>
+                                    <a href="https://news-app-indol-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                          <h1 className='font-bold'>NewsApp</h1>
+                                    </a>
+                                    <a href="https://github.com/ImanolHerrero/NewsApp" target="_blank" rel="noopener noreferrer"><GithubLogo /></a>
+                              </div>
+                              <p>{t('project4_description')}</p>
+                              <footer className='flex flex-wrap gap-2 mt-2'>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>API</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>ReactJS</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>TailwindCSS</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>TypeScript</span>
+                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>shadcn/ui</span>
+                              </footer>
+                        </div>
 
                   </section>
 
