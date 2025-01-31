@@ -1,84 +1,72 @@
 import { useTranslation } from 'react-i18next';
-import { Folder, GithubLogo } from '@phosphor-icons/react'
+import { Folder, GithubLogo } from '@phosphor-icons/react';
 
-function Proyects() {
+const projects = [
+      {
+            name: 'DictionaryApp',
+            url: 'https://dictionary-apiproject.vercel.app/',
+            repo: 'https://github.com/ImanolHerrero/dictionary',
+            description: 'project1_description',
+            tags: ['API', 'NextJS', 'TailwindCSS']
+      },
+      {
+            name: 'Shortly',
+            url: 'https://shortlyapi.netlify.app/',
+            repo: 'https://github.com/ImanolHerrero/Shortly-API',
+            description: 'project2_description',
+            tags: ['API', 'HTML', 'SCSS', 'JavaScript']
+      },
+      {
+            name: 'EventoX',
+            url: '',
+            repo: 'https://github.com/EventoX/EVENTOX_CLIENT',
+            description: 'project3_description',
+            tags: ['CRUD', 'Admin Panel', 'Team Project', 'NextJS', 'CSS', 'Auth', 'Checkout']
+      },
+      {
+            name: 'NewsApp',
+            url: 'https://news-app-indol-seven.vercel.app/',
+            repo: 'https://github.com/ImanolHerrero/NewsApp',
+            description: 'project4_description',
+            tags: ['API', 'ReactJS', 'TailwindCSS', 'TypeScript', 'shadcn/ui']
+      }
+];
+
+function Projects() {
       const { t } = useTranslation();
+
       return (
             <section className='animate-fade-left animate-duration-500 animate-delay-1000 animate-ease-linear mb-12'>
                   <div className='flex items-center gap-2 mb-2'>
                         <Folder className='text-2xl' />
-                        <h1 className='text-2xl font-bold'>{t(('proyect_title'))}</h1>
+                        <h1 className='text-2xl font-bold'>{t('proyect_title')}</h1>
                   </div>
                   <section className='grid grid-cols-1 md:grid-cols-2 gap-2'>
-                        <div className='border rounded p-2'>
-                              <div className='flex items-center gap-2 mb-2'>
-                                    <a href="https://dictionary-apiproject.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                          <h1 className='font-bold'>DictionaryApp</h1>
-                                    </a>
-                                    <a href="https://github.com/ImanolHerrero/dictionary" target="_blank" rel="noopener noreferrer"><GithubLogo /></a>
+                        {projects.map(({ name, url, repo, description, tags }) => (
+                              <div key={name} className='border rounded p-2'>
+                                    <div className='flex items-center gap-2 mb-2'>
+                                          {url ? (
+                                                <a href={url} target='_blank' rel='noopener noreferrer'>
+                                                      <h1 className='font-bold'>{name}</h1>
+                                                </a>
+                                          ) : (
+                                                <h1 className='font-bold'>{name}</h1>
+                                          )}
+                                          <a href={repo} target='_blank' rel='noopener noreferrer'>
+                                                <GithubLogo />
+                                          </a>
+                                    </div>
+                                    <p>{t(description)}</p>
+                                    <footer className='flex flex-wrap gap-2 mt-2'>
+                                          {tags.map(tag => (
+                                                <span key={tag} className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>{tag}</span>
+                                          ))}
+                                    </footer>
                               </div>
-                              <p>{t('project1_description')}</p>
-                              <footer className='flex flex-wrap gap-2 mt-2'>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>API</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>NextJS</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>TailwindCSS</span>
-                              </footer>
-                        </div>
-                        <div className='border rounded p-2'>
-                              <div className='flex items-center gap-2 mb-2'>
-                                    <a href="https://shortlyapi.netlify.app/" target="_blank" rel="noopener noreferrer">
-                                          <h1 className='font-bold'>Shortly</h1>
-                                    </a>
-                                    <a href="https://github.com/ImanolHerrero/Shortly-API" target="_blank" rel="noopener noreferrer"><GithubLogo /></a>
-                              </div>
-                              <p>{t('project2_description')}</p>
-                              <footer className='flex flex-wrap gap-2 mt-2'>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>API</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>HTML</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>SCSS</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>JavaScript</span>
-                              </footer>
-                        </div>
-                        <div className='border rounded p-2'>
-                              <div className='flex items-center gap-2 mb-2'>
-                                    <a href="" target="_blank" rel="noopener noreferrer">
-                                          <h1 className='font-bold'>EventoX</h1>
-                                    </a>
-                                    <a href="https://github.com/EventoX/EVENTOX_CLIENT" target="_blank" rel="noopener noreferrer"><GithubLogo /></a>
-                              </div>
-                              <p>{t('project3_description')}</p>
-                              <footer className='flex flex-wrap gap-2 mt-2'>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>CRUD</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>Admin Panel</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>Team Project</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>NextJS</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>CSS</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>Auth</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>Checkout</span>
-                              </footer>
-                        </div>
-                        <div className='border rounded p-2'>
-                              <div className='flex items-center gap-2 mb-2'>
-                                    <a href="https://news-app-indol-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                          <h1 className='font-bold'>NewsApp</h1>
-                                    </a>
-                                    <a href="https://github.com/ImanolHerrero/NewsApp" target="_blank" rel="noopener noreferrer"><GithubLogo /></a>
-                              </div>
-                              <p>{t('project4_description')}</p>
-                              <footer className='flex flex-wrap gap-2 mt-2'>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>API</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>ReactJS</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>TailwindCSS</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>TypeScript</span>
-                                    <span className='bg-gray-100 dark:bg-zinc-700 rounded p-1'>shadcn/ui</span>
-                              </footer>
-                        </div>
-
+                        ))}
                   </section>
-
-
             </section>
-      )
+      );
 }
 
-export default Proyects
+export default Projects;
