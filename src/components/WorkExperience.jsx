@@ -57,11 +57,13 @@ function WorkExperience() {
 
    return (
       <section className="mb-12 animate-fade-left animate-duration-500 animate-delay-1000 animate-ease-linear">
-         <h1 className="text-2xl font-bold mb-2 flex items-center gap-2">
-            <Briefcase />
-            <p>{t("work_experience")}</p>
-         </h1>
-
+         <div className="flex items-center mb-6">
+            <h1 className="text-2xl font-bold flex items-center gap-2">
+               <Briefcase />
+               <p>{t("work_experience")}</p>
+            </h1>
+            <div className="flex-1 border-t ml-4" />
+         </div>
 
          {experiences.map((experience, index) => (
             <WorkExperienceItem key={index} {...experience} />
