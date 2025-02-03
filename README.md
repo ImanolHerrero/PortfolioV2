@@ -1,8 +1,17 @@
-# React + Vite
+# ✨ Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here is where I will be showcasing my actual and future projects. I will be focusing in building Front End, Back End and Full Stack aplications with a heavy enfasis in UI/UX.
 
-Currently, two official plugins are available:
+ ► **[Live demo](https://imanolherreroportfolio.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 💻 Tech Stack
+
+ - ReactJS.
+ - TailwindCSS.
+ - shadcn/ui.
+ 
+ # 👀 How to reach me
+ 
+► [**Linkedin**](https://www.linkedin.com/in/imanol-herrero-932956247/)
+
+► [**Email**](imano.arias@gmail.com)
