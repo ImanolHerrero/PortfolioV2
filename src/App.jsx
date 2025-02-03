@@ -12,7 +12,7 @@ function App() {
    return (
       <main className="max-w-screen-md mx-auto min-h-screen p-4 text-slate-900 dark:text-slate-100">
          <nav className="flex justify-between items-center gap-6 py-4 sticky top-0 z-50 bg-[#fcfcfc] dark:bg-zinc-900 border-b">
-            <img src="../../public/favicon.ico" alt="Imanol Herrero Icon" className="h-10 w-10" />
+            <img src="../public/icon.png" alt="Imanol Herrero Icon" className="h-10 w-10" />
 
             <div className="flex items-center gap-6">
                <a href="mailto:imano.arias@gmail.com">
