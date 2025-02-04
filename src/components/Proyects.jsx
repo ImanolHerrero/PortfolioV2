@@ -5,7 +5,7 @@ const projects = [
    {
       name: 'DictionaryApp',
       url: 'https://dictionary-apiproject.vercel.app/',
-      repo: 'https://github.com/ImanolHerrero/dictionary',
+      repo: 'https://github.com/ImanolHerrero/DictionaryApp',
       description: 'project1_description',
       tags: ['API', 'NextJS', 'TailwindCSS']
    },
