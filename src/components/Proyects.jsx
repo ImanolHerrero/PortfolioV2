@@ -36,7 +36,7 @@ function Projects() {
    const { t } = useTranslation();
 
    return (
-      <section className='animate-fade-left animate-duration-500 animate-delay-1000 animate-ease-linear mb-12'>
+      <section className='mb-12'>
          <div className="flex items-center mb-6">
             <h1 className="text-2xl font-bold flex items-center gap-2">
                <Folder />

@@ -5,7 +5,7 @@ function AboutMe() {
    const { t } = useTranslation();
 
    return (
-      <section className="mb-12 animate-fade-left animate-duration-500 animate-delay-700 animate-ease-linear">
+      <section className="mb-12">
          <div className="flex items-center mb-6">
             <h1 className="text-2xl font-bold flex items-center gap-2">
                <User /> {t('about_me')}

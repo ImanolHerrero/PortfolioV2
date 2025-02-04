@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import WorkExperience from "./components/WorkExperience";
 import Proyects from "./components/Proyects";
+import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import { useTranslation } from 'react-i18next';
 import { Envelope } from "@phosphor-icons/react";
@@ -32,6 +33,7 @@ function App() {
          <AboutMe />
          <WorkExperience />
          <Proyects />
+         <Skills />
          <Footer />
       </main >
    );

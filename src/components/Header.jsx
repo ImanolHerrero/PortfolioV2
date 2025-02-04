@@ -21,7 +21,7 @@ function Header() {
       ];
 
       return (
-            <header className="mb-12 mt-6 animate-fade-left animate-duration-500 animate-delay-500 animate-ease-linear">
+            <header className="mb-12 mt-6">
                   <h1 className="text-2xl font-bold">{t('name')}</h1>
                   <p className="text-lg font-semibold">{t('title')}</p>
                   <p className="flex items-center gap-1 text-sm">
