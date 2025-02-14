@@ -50,7 +50,7 @@ function Projects() {
                   <div className='flex items-center gap-2 mb-2'>
                      {url ? (
                         <a href={url} target='_blank' rel='noopener noreferrer'>
-                           <h1 className='font-bold'>{name}</h1>
+                           <h1 className='font-bold hover:underline'>{name}</h1>
                         </a>
                      ) : (
                         <h1 className='font-bold'>{name}</h1>
